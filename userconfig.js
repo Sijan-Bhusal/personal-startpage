@@ -1,10 +1,10 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "Alicante",
+    location: "Kathmandu",
     scale: "C",
   },
   clock: {
@@ -23,7 +23,7 @@ const default_config = {
           name: "media/rrss",
           links: [
             {
-              name: "mastodon",
+              name: "steam",
               url: "https://mastodon.social",
               icon: "brand-mastodon",
               icon_color: palette.green,
