@@ -1,5 +1,5 @@
 // latte / frappe / macchiato / mocha
-const palette = mocha;
+const palette = gruv;
 
 const default_config = {
   overrideStorage: true,
@@ -13,7 +13,7 @@ const default_config = {
   },
   disabled: [],
   fastlink: "",
-  openLastVisitedTab: false,
+  openLastVisitedTab: true,
   tabs: [
     {
       name: "personal",
