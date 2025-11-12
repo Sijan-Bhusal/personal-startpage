@@ -74,7 +74,7 @@ const default_config = {
               url: "https://www.linkedin.com/",
               icon: "brand-linkedin",
               icon_color: palette.green,
-            }
+            },
             {
               name: "calendar",
               url: "https://calendar.google.com/",
