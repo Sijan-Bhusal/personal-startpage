@@ -30,7 +30,7 @@ class Links extends Component {
                       ${Links.getIcon(link)}
                       ${link.name ? `<p class="link-name">${link.name}</p>` : ""}
                     </a>
-                </div>`,
+                </div>`
                 )
                 .join("")}
             </div>
@@ -84,7 +84,7 @@ class Tabs extends Component {
     return `
       status-bar {
           bottom: -50px;
-          height: 32px;
+          height: 35px;
           background: ${CONFIG.palette.base};
           border-radius: 10px;
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.50);
@@ -102,14 +102,14 @@ class Tabs extends Component {
       #panels {
           border-radius: 10px;
           width: 90%;
-          height: 75%;
+          height: 80%;
           right: 0;
           left: 0;
           top: 0;
           bottom: 0;
           margin: auto;
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
-          background: ${CONFIG.palette.base};
+          background: ${CONFIG.palette};
       }
 
       .categories {
@@ -183,7 +183,7 @@ class Tabs extends Component {
       .categories ul .links a {
           color: ${CONFIG.palette.text};
           text-decoration: none;
-          font: 700 18px JetBrainsMono Nerd Font;
+          font: 700 15px JetBrainsMono Nerd Font;
           src: url(../fonts/jetbrains-mono.ttf);
           transition: all .1s;
           display: inline-flex;
@@ -191,7 +191,7 @@ class Tabs extends Component {
           padding: .4em .7em;
           background: ${CONFIG.palette.mantle};
           box-shadow: 0 4px ${CONFIG.palette.mantle}, 0 5px 10px rgb(0 0 0 / 40%);
-          border-radius: 10px;
+          border-radius: 50px;
           margin-bottom: .7em;
       }
 
@@ -218,7 +218,7 @@ class Tabs extends Component {
           padding: 1em;
           margin: auto;
           margin-left: 20px;
-          border-radius: 10px;
+          border-radius: 50px;
           box-shadow: inset 0 0 0 2px var(--flavour);
           left: calc(15% - 42.5px);
           bottom: 0;

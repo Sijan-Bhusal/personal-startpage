@@ -61,7 +61,7 @@ class Weather extends Component {
       }
 
       .weather-temperature {
-          font: 300 9pt JetBrainsMono Nerd Font;
+          font: 500 11pt JetBrainsMono Nerd Font;
           src: url(../fonts/jetbrains-mono.ttf);
           color: ${CONFIG.palette.text};
           white-space: nowrap;

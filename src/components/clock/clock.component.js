@@ -16,7 +16,7 @@ class Clock extends Component {
     return `
         .clock-time {
             white-space: nowrap;
-            font: 300 9pt JetBrainsMono Nerd Font;
+            font: 500 11pt JetBrainsMono Nerd Font;
             src: url(../fonts/jetbrains-mono.ttf);
             color: ${CONFIG.palette.text};
             letter-spacing: .5px;
@@ -24,7 +24,7 @@ class Clock extends Component {
 
         .clock-icon {
             color: ${CONFIG.palette.red};
-            font-size: 10pt;
+            font-size: 11pt;
             margin-right: 10px;
         }
     `;
