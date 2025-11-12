@@ -22,12 +22,12 @@ const default_config = {
         {
           name: "media/rrss",
           links: [
-            {
-              name: "steam",
-              url: "https://mastodon.social",
-              icon: "brand-mastodon",
-              icon_color: palette.green,
-            },
+            // {
+            //   name: "steam",
+            //   url: "https://mastodon.social",
+            //   icon: "brand-mastodon",
+            //   icon_color: palette.green,
+            // },
             {
               name: "reddit",
               url: "https://www.reddit.com/",
@@ -40,24 +40,24 @@ const default_config = {
               icon: "brand-youtube",
               icon_color: palette.red,
             },
-            {
-              name: "twitch",
-              url: "https://www.twitch.tv/",
-              icon: "brand-twitch",
-              icon_color: palette.blue,
-            },
+            // {
+            //   name: "twitch",
+            //   url: "https://www.twitch.tv/",
+            //   icon: "brand-twitch",
+            //   icon_color: palette.blue,
+            // },
             {
               name: "hacker-news",
               url: "https://news.ycombinator.com/ask",
               icon: "news",
               icon_color: palette.mauve,
             },
-            {
-              name: "lemmy",
-              url: "https://lemmy.ml/",
-              icon: "users",
-              icon_color: palette.sky,
-            },
+            // {
+            //   name: "lemmy",
+            //   url: "https://lemmy.ml/",
+            //   icon: "users",
+            //   icon_color: palette.sky,
+            // },
           ],
         },
         {
@@ -65,99 +65,105 @@ const default_config = {
           links: [
             {
               name: "mail",
-              url: "https://mail.proton.me",
+              url: "https://mail.google.com/",
               icon: "brand-campaignmonitor",
               icon_color: palette.green,
             },
-            {
-              name: "calendar",
-              url: "https://calendar.proton.me",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "vault",
-              url: "https://vault.bitwarden.com",
-              icon: "lock",
-              icon_color: palette.red,
-            },
-            {
-              name: "drive",
-              url: "https://drive.proton.me",
-              icon: "cloud",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "school",
-          links: [
-            {
-              name: "aules",
-              url: "https://aules.edu.gva.es/semipresencial/my/index.php?lang=es",
-              icon: "school",
-              icon_color: palette.green,
-            },
-            {
-              name: "outlook",
-              url: "https://outlook.office.com/mail/",
-              icon: "inbox",
-              icon_color: palette.peach,
-            },
-            {
-              name: "aws",
-              url: "https://awsacademy.instructure.com/",
-              icon: "brand-aws",
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: "job",
-          links: [
             {
               name: "linkedin",
               url: "https://www.linkedin.com/",
               icon: "brand-linkedin",
               icon_color: palette.green,
-            },
-          ],
-        },
-        {
-          name: "shopping",
-          links: [
+            }
             {
-              name: "pccomponentes",
-              url: "https://www.pccomponentes.com/",
-              icon: "device-desktop",
-              icon_color: palette.green,
-            },
-            {
-              name: "amazon",
-              url: "https://www.amazon.es/",
-              icon: "brand-amazon",
+              name: "calendar",
+              url: "https://calendar.google.com/",
+              icon: "calendar-filled",
               icon_color: palette.peach,
             },
+            // {
+            //   name: "vault",
+            //   url: "https://vault.bitwarden.com",
+            //   icon: "lock",
+            //   icon_color: palette.red,
+            // },
             {
-              name: "amazon-tracker",
-              url: "https://camelcamelcamel.com/",
-              icon: "chart-area",
-              icon_color: palette.red,
-            },
-            {
-              name: "chollometro",
-              url: "https://www.chollometro.com/",
-              icon: "basket",
+              name: "drive",
+              url: "https://drive.google.com/",
+              icon: "cloud",
               icon_color: palette.blue,
-            },
-            {
-              name: "kimovil",
-              url: "https://www.kimovil.com/en/",
-              icon: "cell-signal-5",
-              icon_color: palette.mauve,
             },
           ],
         },
+        // {
+        //   name: "school",
+        //   links: [
+        //     {
+        //       name: "aules",
+        //       url: "https://aules.edu.gva.es/semipresencial/my/index.php?lang=es",
+        //       icon: "school",
+        //       icon_color: palette.green,
+        //     },
+        //     {
+        //       name: "outlook",
+        //       url: "https://outlook.office.com/mail/",
+        //       icon: "inbox",
+        //       icon_color: palette.peach,
+        //     },
+        //     {
+        //       name: "aws",
+        //       url: "https://awsacademy.instructure.com/",
+        //       icon: "brand-aws",
+        //       icon_color: palette.red,
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "job",
+        //   links: [
+        //     {
+        //       name: "linkedin",
+        //       url: "https://www.linkedin.com/",
+        //       icon: "brand-linkedin",
+        //       icon_color: palette.green,
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "shopping",
+        //   links: [
+        //     {
+        //       name: "pccomponentes",
+        //       url: "https://www.pccomponentes.com/",
+        //       icon: "device-desktop",
+        //       icon_color: palette.green,
+        //     },
+        //     {
+        //       name: "amazon",
+        //       url: "https://www.amazon.es/",
+        //       icon: "brand-amazon",
+        //       icon_color: palette.peach,
+        //     },
+        //     {
+        //       name: "amazon-tracker",
+        //       url: "https://camelcamelcamel.com/",
+        //       icon: "chart-area",
+        //       icon_color: palette.red,
+        //     },
+        //     {
+        //       name: "chollometro",
+        //       url: "https://www.chollometro.com/",
+        //       icon: "basket",
+        //       icon_color: palette.blue,
+        //     },
+        //     {
+        //       name: "kimovil",
+        //       url: "https://www.kimovil.com/en/",
+        //       icon: "cell-signal-5",
+        //       icon_color: palette.mauve,
+        //     },
+        //   ],
+        // },
         {
           name: "services",
           links: [
